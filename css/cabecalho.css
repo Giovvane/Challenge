@@ -1,0 +1,60 @@
+.cabecalho{
+    background-image: linear-gradient(to right, #6032E4, #725EF2, #42A5F5);;
+    width: 100vw;
+    height: 10%;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;     /* Joga o cabeçalho para a esquerda até encostar na borda */
+    margin-right: -50vw;    /* Garante que ele ocupe o lado direito também */
+    
+}
+ 
+.cabecalho__nav{
+    width: inherit;
+    height: inherit;    
+}
+ 
+.cabecalho__li{
+    display: inline-block;
+    margin:2rem;
+    transition: transform 0.3s linear;
+    display: inline-block;
+}
+ 
+.cabecalho__a{
+    display: inline-block;
+    background-color: #29C9FF;
+    border-radius: 10px;
+    width: 10vw;
+    padding: 1rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;    
+}
+ 
+.cabecalho__a--active,.cabecalho__li-active{
+    float: right;
+}
+ 
+.cabecalho__a:hover{
+    background-image: linear-gradient(to top, black, rgb(75, 75, 75) );
+    color: #fff;
+
+}
+
+.cabecalho ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;         
+    list-style: none;
+    margin: 0;
+    padding: 20px 0;              
+    width: 100%;
+}
+
+.cabecalho__li:hover{
+    transform: scale(1.1);
+}
