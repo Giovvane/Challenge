@@ -1,8 +1,17 @@
 body{
     background-color: rgb(255, 255, 255);
+    margin-rigth: 10;
+    overflow-x: hidden; 
+    box-sizing: border-box;
     margin: 0;
+    font-family: 'Times New Roman', Times, serif
 }
 
 .container{
     padding: 0 5px;
 }
+
+.integrantes{
+    font-size: small;
+}
+
