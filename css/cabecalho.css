@@ -25,7 +25,7 @@
     display: inline-block;
 }
  
-.cabecalho__a{
+.cabecalho__bg{
     display: inline-block;
     background-color: #29C9FF;
     border-radius: 10px;
@@ -37,13 +37,12 @@
     font-weight: bold;
     font-size: 20px;    
     margin-left: auto;
-}
- 
-.cabecalho__a--active,.cabecalho__li-active{
     float: right;
 }
  
-.cabecalho__a:hover{
+
+ 
+.cabecalho__bg:hover{
     background-image: linear-gradient(to top, black, rgb(75, 75, 75) );
     color: #fff;
 
