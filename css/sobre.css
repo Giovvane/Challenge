@@ -1,0 +1,9 @@
+.grafico-clima{
+    display: block;
+    max-width: 450px;
+    max-height: 450px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
