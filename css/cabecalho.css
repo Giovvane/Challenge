@@ -66,9 +66,22 @@
     height: 100px;       
     width: 100px;       
     object-fit: contain;
+    justify-content: left;
 }
 
 .cabecalho__logo:hover{
     transform: scale(1.2);
 
 }
+
+.contato-header {
+    height: auto;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    justify-content: left;
+}
+
+.titulo{
+    margin-left: 10.5rem;
+}
+

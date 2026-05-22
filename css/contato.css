@@ -1,0 +1,69 @@
+.container-contato {
+    display: flex;
+    justify-content: flex-end; 
+    padding: 20px;
+    margin-right: 10rem;   
+}
+
+/* O formulário em si */
+#meuFormulario {
+    display: flex;
+    flex-direction: column;    
+    gap: 15px;                 
+    width: 100%;
+    max-width: 400px;          
+}
+
+#meuFormulario input, 
+#meuFormulario textarea {
+    width: 100%;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: none;
+}
+
+.container-pagina {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px;                     
+}
+
+.contatos {
+    display: flex;
+    flex-direction: column;         
+    gap: 15px;                      
+}
+
+.contatos h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.item-contato p {
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+}
+
+.container-contato {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    max-width: 400px;
+}
+
+.item-contato {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icone-contato {
+    width: 24px;        
+    height: 24px;     
+    object-fit: contain;
+}
+
+h1{
+    font-size: 50px;
+}
