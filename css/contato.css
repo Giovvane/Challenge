@@ -9,7 +9,6 @@ body{
     margin-right: 10rem;   
 }
 
-/* O formulário em si */
 #meuFormulario {
     display: flex;
     flex-direction: column;    
@@ -24,6 +23,13 @@ body{
     padding: 10px;
     background-color: #f1f1f1;
     border: none;
+    box-sizing: border-box;
+}
+
+#meuFormulario button {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 .container-pagina {
@@ -35,7 +41,7 @@ body{
 .contatos {
     display: flex;
     flex-direction: column;         
-    gap: 15px;                      
+    gap: 15px;                                      
 }
 
 .contatos h2 {
@@ -64,10 +70,48 @@ body{
 
 .icone-contato {
     width: 24px;        
-    height: 24px;     
+    height: 24px;      
     object-fit: contain;
 }
 
 h1{
     font-size: 50px;
+    margin-right: 550px;
+}
+
+@media screen and (max-width: 768px) {
+    .container-pagina {
+        flex-direction: column;
+        padding: 20px 40px;
+        gap: 30px;
+    }
+
+    .container-contato {
+        justify-content: flex-start;
+        margin-right: 0;
+        max-width: 100%;
+    }
+
+    #meuFormulario {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container-pagina {
+        padding: 15px 15px;
+        gap: 20px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .contatos h2 {
+        font-size: 20px;
+    }
+
+    .item-contato p {
+        font-size: 14px;
+    }
 }

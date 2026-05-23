@@ -1,88 +1,51 @@
-.cabecalho{
-    display: flex;
-    background-image: linear-gradient(to right, #6032E4, #725EF2, #42A5F5);;
-    width: 100vw;
-    height: 10%;
-    position: relative;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;    
-    margin-right: -50vw;  
-    justify-content: space-between;  
-    padding: 0 5%;  
-    align-items: center;
-    font-family: 'Times New Roman', Times, serif;
-}
- 
-.cabecalho__nav{
-    width: inherit;
-    height: inherit;    
-}
- 
-.cabecalho__li{
-    display: inline-block;
-    margin:2rem;
-    transition: transform 0.3s linear;
-    display: inline-block;
-}
- 
-.cabecalho__bg{
-    display: inline-block;
-    background-color: #29C9FF;
-    border-radius: 10px;
-    width: 8vw;
-    padding: 1rem;
-    text-align: center;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 20px;    
-    margin-left: auto;
-    float: right;
-}
- 
-
- 
-.cabecalho__bg:hover{
-    background-image: linear-gradient(to top, black, rgb(75, 75, 75) );
-    color: #fff;
-
+.cabecalho {
+  background-color: #4c46e4; 
+  padding: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  
+  
+  display: flex;
+  flex-direction: column; 
+  align-items: center;   
+  gap: 15px;       
 }
 
-.cabecalho ul{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;         
-    list-style: none;
-    margin: 0;
-    padding: 20px 0;              
-    width: 100%;
+.cabecalho__logo {
+  max-height: 50px;    
+  width: auto;
 }
 
-.cabecalho__li:hover{
-    transform: scale(1.1);
+.cabecalho__ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;     
+  justify-content: center; 
+  gap: 10px;        
 }
 
-.cabecalho__logo{
-    height: 100px;       
-    width: 100px;       
-    object-fit: contain;
-    justify-content: left;
+.cabecalho__bg {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #00d2ff;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  font-family: sans-serif;
 }
 
-.cabecalho__logo:hover{
-    transform: scale(1.2);
+@media screen and (min-width: 768px) {
+  .cabecalho {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 50px;     
+  }
 
+  .cabecalho__ul {
+    gap: 20px;         
+  }
 }
-
-.contato-header {
-    height: auto;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-    justify-content: left;
-}
-
-.titulo{
-    margin-left: 10.5rem;
-}
-

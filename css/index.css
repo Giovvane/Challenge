@@ -8,8 +8,8 @@ body{
   text-align: justify;
 }
 
-h1{
-  text-align: center ;
+.index-cabecalho{
+  margin-left: 550px;
 }
 
 h2{
@@ -42,4 +42,31 @@ footer{
     max-height: 550px;
     margin-left: 480px;
     padding: 10px;
+}
+
+.image-index {
+  display: block;
+  width: 100%;  
+  max-width: 600px;    
+  height: auto;        
+  margin: 20px auto;    
+}
+
+@media screen and (max-width: 320px) {
+  .image-index {
+    max-width: 90%;
+    margin: 15px auto;
+  }
+  
+  h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+  .image-index {
+    max-width: 80%;    
+    margin: 25px auto;
+  }
 }
