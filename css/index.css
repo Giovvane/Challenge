@@ -1,3 +1,15 @@
+main {
+ background-image: url('../img/transportep.jpg');
+ background-size: 100%;
+ background-position: left;
+ background-repeat: no-repeat;
+ padding: 20px;
+ 
+ 
+ color: rgb(255, 255, 255);
+ -webkit-text-stroke: 0.5px rgb(0, 0, 0) ;
+}
+
 body{
     background-color: rgb(255, 255, 255);
     margin-rigth: 10;
