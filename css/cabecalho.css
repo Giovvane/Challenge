@@ -3,8 +3,6 @@
   padding: 15px;
   width: 100%;
   box-sizing: border-box;
-  
-  
   display: flex;
   flex-direction: column; 
   align-items: center;   
@@ -48,4 +46,8 @@
   .cabecalho__ul {
     gap: 20px;         
   }
+}
+
+.cabecalho__logo:hover{
+  transform: scale(1.5);
 }
