@@ -5,6 +5,7 @@ main {
  background-repeat: no-repeat;
  padding: 20px;
  
+ 
  color: rgb(255, 255, 255);
  -webkit-text-stroke: 0.5px rgb(0, 0, 0) ;
 }
@@ -33,12 +34,17 @@ p{
 }
 
 .container{
-    padding: 0 5px;
+  padding: 0 5px;
 }
 
 .integrantes{
-    font-size: small;
+  font-size: small;
 }
 
+footer{
+  background-image: linear-gradient(to right, #6032E4, #725EF2, #42A5F5);;  
+  color: white;         
+  padding: 10px 0;        
+  width: 100%;
 
-
+}
