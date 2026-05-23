@@ -67,3 +67,29 @@
   color: #721c24;
   border: 1px solid #f5c6cb;
 }
+
+.faq-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.faq-item {
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 10px;
+}
+
+.faq-pergunta {
+  width: 100%;
+  background: none;
+  border: none;
+  text-align: left;
+  padding: 18px 10px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #4c46e4;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
