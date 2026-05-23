@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
       }, 5000);
     });
   }
-  
+
   const botaoEnviarCaixa = document.getElementById("btn-enviar-caixa");
   const campoTextoCaixa = document.getElementById("texto-usuario");
   
@@ -66,17 +66,5 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
   }
-
-});
-
-const perguntas = document.querySelectorAll(".faq-pergunta");
-
-perguntas.forEach(pergunta => {
-  pergunta.addEventListener("click", () => {
-    
-    const itemPai = pergunta.parentElement;
-    
-    itemPai.classList.toggle("ativo");
-  });
 });
 
