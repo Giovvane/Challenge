@@ -29,3 +29,29 @@
   resize: none;
   box-sizing: border-box;
 }
+
+#btn-enviar-caixa {
+  background-color: #00d2ff;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+#btn-enviar-caixa:hover {
+  background-color: #00b4dc;
+}
+
+.msg-discreta {
+  display: none;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 5px;
+  animation: fadeIn 0.3s ease;
+}
