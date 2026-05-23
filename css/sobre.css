@@ -1,3 +1,7 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
 .grafico-clima{
     display: block;
     max-width: 450px;
