@@ -111,3 +111,15 @@
   color: #555555;
   line-height: 1.6;
 }
+
+.faq-item.ativo .faq-resposta {
+  max-height: 200px;
+}
+
+.faq-item.ativo .faq-pergunta::after {
+  transform: rotate(90deg);
+}
+
+.lista-missões{
+  text-align: center;
+}
