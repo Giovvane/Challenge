@@ -11,12 +11,13 @@ main {
 }
 
 body{
-    background-color: rgb(255, 255, 255);
-    margin-rigth: 10;
-    overflow-x: hidden; 
-    box-sizing: border-box;
-    margin: 0;
-    font-family: 'Times New Roman', Times, serif;
+  background-color: rgb(255, 255, 255);
+  margin-rigth: 10;
+  overflow-x: hidden; 
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: justify;
 }
 
 .container{
