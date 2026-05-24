@@ -13,6 +13,15 @@ Sobre pastas, temos as pastas padrões, de páginas(html), arquivos css para cad
 
 
 
+Sistema Python
+
+
+<img width="832" height="931" alt="Image" src="https://github.com/user-attachments/assets/a1677462-c91d-4d45-9720-838c642a8d87" />
+
+Sistema Java
+
+
+<img width="573" height="689" alt="Image" src="https://github.com/user-attachments/assets/58580e87-ebea-489d-b819-7ae6df6a0d1e" />
 
 
 
